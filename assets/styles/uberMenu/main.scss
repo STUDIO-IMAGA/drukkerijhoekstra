@@ -1,0 +1,224 @@
+.home #headerMenu {
+	border-top: solid 1px $menuBorder;
+}
+#headerMenu {
+	background: $navbar-default-bg;
+	border-top: 0px;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+}
+.ubermenu .ubermenu-item:first-child {
+	border-left: solid 1px $menuBorder;
+}
+.ubermenu .ubermenu-item:hover.ubermenu-item:first-child {
+	border-left: solid 0px $brand-primary !important;
+}
+.ubermenu .ubermenu-item {
+	border-right: solid 1px $menuBorder;
+	width: 20%;
+}
+.ubermenu .ubermenu-item:hover {
+	background: $brand-primary;
+}
+.ubermenu .ubermenu-submenu-drop .ubermenu-item, 
+.ubermenu .ubermenu-item:hover .ubermenu-submenu-drop .ubermenu-item {
+	border: 0px;
+}
+.ubermenu .ubermenu-item:hover span.ubermenu-target-title {
+	color: #FFF;
+}
+.ubermenu .ubermenu-submenu-drop {
+	background: $brand-primary;
+}
+.ubermenu .ubermenu-submenu-drop .ubermenu-item span, 
+.ubermenu .ubermenu-item:hover .ubermenu-submenu-drop .ubermenu-item span {
+	color: #3662a0;
+	text-transform: uppercase;
+	border-left: 0px;
+	font-family: $font-family-serif;
+	font-size: 16px;
+}
+.ubermenu .ubermenu-submenu-drop .ubermenu-item a span,
+.ubermenu .ubermenu-item:hover .ubermenu-submenu-drop .ubermenu-item a span {
+	color: #ededed;
+	text-transform: none;
+	font-family: $font-family-sans !important;
+	font-size: 14px;
+	font-weight: 400 !important;
+}
+.ubermenu .ubermenu-submenu-drop .ubermenu-item a:hover span {
+	text-decoration: underline;
+}
+.ubermenu-sticky {
+	background: #F2F2F2;
+}
+.ubermenu-sticky .ubermenu-item:hover.ubermenu-item:first-child {
+	border-left: solid 1px $brand-primary !important;
+}
+.ubermenu-target-title {
+	font-family: $font-family-serif !important;
+	font-size: 20px;
+	color: #335079;
+}
+.ubermenu-target-description {
+	font-size: 14px !important;
+	color: #7F7F7F !important;
+	margin-top: 6px;
+}
+.ubermenu-target-divider {
+	display: none;
+}
+.ubermenu-submenu-id-386 li a, .ubermenu-submenu-id-152 li a, .ubermenu-submenu-id-182 li a {
+	padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+.ubermenu-submenu-id-386, .ubermenu-submenu-id-152, .ubermenu-submenu-id-182 {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+.ubermenu-submenu li a:hover {
+	background: #CACACA !important;
+}
+.ubermenu-submenu li a:hover span {
+	text-decoration: none !important;
+	color: #002457 !important;
+}
+a.subBlauw:hover {
+	background: #002457 !important;
+}
+a.subBlauw:hover span {
+	text-decoration: none !important;
+	color: #FFF !important;
+}
+.ubermenu-bound .ubermenu-submenu-type-mega {
+    min-width: inherit !important;
+}
+.ubermenu .ubermenu-item:hover span.ubermenu-target-description {
+	color: #FFF !important;
+}
+.ubermenu .ubermenu-submenu {
+    min-width: 227px !important;
+    width: 227px !important;
+    border: 0 none !important;
+    /*height: 400px !important;*/
+}
+.ubermenu .ubermenu-submenu .ubermenu-submenu {
+    min-width: inherit !important;
+    width: inherit !important;
+    padding: 0px !important;
+}
+.ubermenu .ubermenu-submenu .ubermenu-submenu li {
+	padding-left: 0px;
+}
+.ubermenu .ubermenu-submenu .ubermenu-submenu li a {
+	 padding: 5px 30px !important;
+}
+.ubermenu .ubermenu-submenu .ubermenu-column-auto {
+    min-width: 100% !important;
+}
+a.subBlauw span {
+	text-transform: normal !important;
+	color: #FFF !important;
+}
+.ubermenu-divider hr {
+	background: #FFF !important;
+}
+.ubermenu li#menu-item-27 {
+   	border-left: 1px solid #d3d3d3;
+}
+.ubermenu .ubermenu-divider hr {
+	height: inherit !important;
+	width: 62% !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+.ubermenu .ubermenu-item:hover span.ubermenu-target-description {
+	color: #FFF !important;
+}
+.ubermenu .ubermenu-submenu .ubermenu-submenu {
+	height: auto !important;
+}
+.ubermenu .ubermenu-icon {
+	vertical-align: top !important;
+    width: 10% !important;
+    color: #FFF !important;
+    margin-top: 1px !important;
+}
+.ubermenu .ubermenu-item-layout-icon_left > .ubermenu-target-title {
+    margin-left: 0 !important;
+    width: 90% !important;
+}
+.ubermenu .ubermenu-target-text {
+    vertical-align: top !important;
+}
+
+@media (max-width: $screen-lg-min) {
+	.ubermenu-target-title {
+		font-size: 17px;
+	}
+	.ubermenu-target-description {
+    	font-size: 12px !important;
+	}
+	.ubermenu .ubermenu-submenu-drop .ubermenu-item span, 
+	.ubermenu .ubermenu-item:hover .ubermenu-submenu-drop .ubermenu-item span {
+		font-size: 13px;
+	}
+	.ubermenu .ubermenu-submenu-drop .ubermenu-item a span,
+	.ubermenu .ubermenu-item:hover .ubermenu-submenu-drop .ubermenu-item a span {
+		font-size: 12px;
+	}
+	.ubermenu-items-align-left.ubermenu-horizontal .ubermenu-item.ubermenu-item-level-0, .ubermenu.ubermenu-horizontal .ubermenu-item.ubermenu-align-left {
+    	float: none;
+	}
+	.ubermenu .ubermenu-search .ubermenu-searchform {
+		width: 100%;
+		margin: 0;
+		padding: 5px 0;
+	}
+	.ubermenu .ubermenu-search .ubermenu-search-submit, .ubermenu .ubermenu-searchbar-drop .ubermenu-search-submit {
+		background: $brand-primary;
+		color: #FFF;
+	}
+	.ubermenu .ubermenu-search .ubermenu-searchform {
+		background: #FFF;
+	}
+	#headerMenu .container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.ubermenu .ubermenu-submenu {
+    	min-width: 195px !important;
+    	width: 195px !important;
+	}
+}
+
+@media (max-width: $screen-md-min) {
+	.ubermenu .ubermenu-item {
+    	border-bottom: 1px solid #d3d3d3;
+    	border-right: 0px !important;
+	}
+	.ubermenu .ubermenu-item:first-child {
+    	border-left: 0px !important;
+	}
+	.ubermenu .ubermenu-submenu {
+    	min-width: inherit !important;
+    	width: inherit !important;
+    	height: inherit !important;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	.ubermenu-no-transitions.ubermenu-responsive.ubermenu-responsive-collapse {
+		display:block;
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	.ubermenu .ubermenu-item {
+		border-right: 0px !important;
+	}
+	.ubermenu .ubermenu-item:first-child {
+    	border-left: 0px !important;
+    	border-bottom: 1px solid #d3d3d3;
+	}
+}

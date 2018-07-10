@@ -1,0 +1,49 @@
+// Grid settings
+$main-sm-columns:       $grid-columns;
+$sidebar-sm-columns:    4;
+
+//** Background color for `<body>`.
+$body-bg:               #fff;
+//** Global text color on `<body>`.
+$text-color:            #000;
+
+
+// Brand colors
+// -------------------------
+$brand-primary:         #061D3D;
+$brand-secondary:  		#335079;
+$brand-green:  			#67B200;
+$navbar-default-bg:     #fff;
+
+$font-family-serif:  	"PT Serif", serif;
+$headings-weight: 		500;
+$headings-size:        	32px;
+
+$font-family-serif-caption: "PT Serif Caption", serif;
+
+$font-family-sans:  	"Open Sans", sans-serif;
+$subheadings-weight: 	300;
+$subheadings-size:   	18px;
+
+$headings-color:        $brand-primary;
+
+// Navbar links
+$navbar-default-link-color:                #b3b2b0;
+$navbar-default-link-hover-color:          #b3b2b0;
+$navbar-default-link-hover-bg:             transparent;
+$navbar-default-link-active-color:         #b3b2b0;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 0%);
+$navbar-default-link-disabled-color:       #ccc;
+$navbar-default-link-disabled-bg:          transparent;
+
+//footer bg
+$content-info-bg:   		#E8E8E8;
+
+
+//portfolio effects
+$figure-background: 			$brand-primary;
+$figure-header-color: 			#484c61;
+$figure-header-color-hover: 	#fff;
+
+//UberMenu
+$menuBorder: 			#D3D3D3;

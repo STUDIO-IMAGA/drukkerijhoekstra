@@ -1,0 +1,205 @@
+#headerTop {
+	background: $brand-primary;
+	color: #EDEDED;
+	padding: 0;
+
+	#nawTop, #adresTop {
+
+		ul {
+			margin: 0px;
+			padding: 0px;
+		}
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 14px;
+			font-weight: 200;
+			margin-bottom: 7px;
+			margin-right: 10px;
+			margin-top: 7px;
+			padding-right: 10px;
+			border-right: 1px solid #fff;
+		}
+		li .fa {
+			margin-right: 5px;
+		}
+		li a {
+			color: #EDEDED;
+			font-weight: 400;
+		}
+		li:last-child {
+			border-right: 0px;
+		}
+	}
+}
+#headerLogo {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-static-top {
+    border-width: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.home #headerLogo {
+	display: block;
+}
+#headerImage {
+	float: left;
+	width: 100%;
+}
+#imageTop {
+	width: 100% !important;
+	height: auto;
+}
+li#logoSmall {
+	border-left: solid 0px #999;
+	border-right: solid 1px #999;
+	text-align: center;
+	padding-left: 0px;
+    padding-right: 23px;
+}
+li#nawPostal {
+	border-right: solid 0px #999;
+	padding-right: 20px;
+	margin-right: 0px !important;
+}
+.home li#nawPostal {
+	border-right: 0px;
+	padding-right: 0px;
+}
+#menuToggle .navbar-toggle {
+	top: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 24px;
+	width: 24px;
+	padding: 5px;
+}
+#menuToggle .navbar-toggle .icon-bar {
+    width: 15px;
+    background-color: #fff;
+}
+	#newsletterForm p {
+		color: #002457 !important;
+	}
+	#subForm label {
+		font-weight: 400 !important;
+		color: #002457 !important;
+		width: 15% !important;
+	}
+	#subForm input {
+		font-weight: 400 !important;
+		color: #002457 !important;
+		width: 80% !important;
+	}
+	#subForm button {
+		font-weight: 400 !important;
+		color: #FFF !important;
+		background: #002457 !important;
+		float: right !important;
+		border: 3px solid #002457 !important;
+		padding: 5px 10px !important;
+		margin-right: 4%;
+	}
+
+@media (max-width: $screen-lg-min) {
+	.ubermenu-sticky {
+		display: none;
+	}
+	#mailText, #nawPostal {
+		display: none !important;
+	}
+	#nawText {
+		border-right: 0px !important;
+		margin-right: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
+@media (max-width: $screen-md-min) {
+	.navbar-toggle {
+    	position: absolute;
+    	display: block;
+		right: 0;
+		top: 60px;
+	}
+	#headerMenu #ubermenu-main-3-primary_navigation-toggle-sticky-wrapper {
+		display: none !important;
+	}
+	#headerLogo {
+		display: block;
+	}
+	li#logoSmall {
+		display: none !important;
+	}
+	li#logoSmall, li#mailText {
+    	border-right: 0px;
+	}
+	#headerMenu .container {
+		width: 100%;
+	}
+	#searchTop {
+		display: none;
+	}
+	.ubermenu-responsive-toggle {
+		display: none !important;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	#nawTop li .fa-lg {
+		margin-left: 15px;
+	}
+	#headerMenu {
+    	border-top: 0px !important;
+	}
+	li#logoSmall {
+		display: none !important;
+	}
+	#headerMenu #ubermenu-main-3-primary_navigation-toggle-sticky-wrapper {
+		display: none !important;
+	}
+	.ubermenu-responsive-toggle {
+		display: none !important;
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	#nawTop {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#nawTop li#belons {
+		text-align: center;
+	}
+	.ls-wp-fullwidth-container {
+		display: none;
+	}
+	.navbar-toggle {
+		top: 140px;
+	}
+	#headerImage {
+		display: none;
+	}
+	.searchbox {
+    	margin: 0 auto !important;
+	}
+	#headerTop .col-xs-12 {
+    	text-align: center;
+    	width: 100%;
+    	float: left;
+	}
+	#headerTop #adresTop li, #headerTop #nawTop li {
+		border-right: 0px;
+	}
+	#headerMenu #ubermenu-main-3-primary_navigation-toggle-sticky-wrapper {
+		display: none !important;
+	}
+	.navbar-collapse {
+		padding: 0px !important;
+		overflow: scroll !important;
+	}
+}

@@ -1,0 +1,145 @@
+#daaromHoekstra {
+	float:left;
+	width: 100%;
+	padding: 20px 0;
+}
+#daaromHoekstra iframe {
+	float:left;
+	width: 100%;
+}
+#daaromHoekstra h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#daaromHoekstra h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#daaromHoekstra p {
+    font-size: 16px;
+}
+#daaromHoekstra #bottomYoutube {
+	background: $brand-primary;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+}
+#daaromHoekstra #bottomYoutube h3 {
+	color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 0;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+#daaromHoekstra #bottomYoutube ul {
+	padding: 0px;
+	margin: 0px;
+}
+#daaromHoekstra #bottomYoutube ul li {
+	display: inline-block;
+	border-right: solid 1px;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #FFF;
+}
+#daaromHoekstra #bottomYoutube ul li:last-child {
+	border-right: 0px;
+}
+#sliderHome {
+	@include gradient-vertical(#EFEFEF, #C9C9C9, 0%, 99%);
+	float: left;
+	width: 100%;
+}
+.ls-wp-fullwidth-container #layerslider_1 p span {
+	font-size: 14px;
+	text-transform: none;
+	float: left;
+	width: 100%;
+	line-height: 14px;
+	margin-top: 2px;
+	font-weight: 200;
+}
+.ls-wp-fullwidth-container #layerslider_1 p span.discount {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+#dragenZorg {
+	background: #ECECEC;
+	float:left;
+	width: 100%;
+}
+#dragenZorg h4 {
+	padding: 30px 15px;
+	font-size: $headings-size;
+	font-weight: $headings-weight;
+	color: $brand-primary;
+	text-align: center;
+}
+.centerImage {
+	text-align: center;
+}
+
+@media (max-width: $screen-lg-min) {
+	.hideSlide {
+		display: none;
+	}
+}
+
+@media (max-width: $screen-md-min) {
+	.smallText {
+		font-size: 18px !important;
+	}
+	#daaromHoekstra h4 {
+		margin-top: 25px;
+		margin-bottom: 15px;
+		float: left;
+		width: 100%;
+	}
+	#daaromHoekstra p {
+    	float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#daaromHoekstra #bottomYoutube {
+		float: left;
+		width: 100%;
+	}
+	#dragenZorg h4 {
+    	padding: 15px;
+	}
+	#daaromHoekstra #bottomYoutube h3 {
+    	font-size: 28px;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	#sliderHome {
+		display: none;
+	}
+	#dragenZorg h4 {
+    	font-size: 26px;
+	}
+	#daaromHoekstra #bottomYoutube h3 {
+    	font-size: 24px;
+	}
+	#daaromHoekstra #bottomYoutube ul li {
+    	font-size: 18px;
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	#dragenZorg h4 {
+    	font-size: 20px;
+	}
+	#daaromHoekstra #bottomYoutube ul li {
+    	font-size: 16px;
+	}
+	#daaromHoekstra h2 {
+    	font-size: 28px;
+	}
+}

@@ -1,0 +1,81 @@
+#certificeringHome {
+	margin-top: 35px;
+	float:left;
+	width: 100%;
+	.certImageOver {
+		position: absolute;
+		top: 185px;
+		right: 30px;
+		padding: 5px;
+		background: #E6E6E6;
+	}
+	.imgCert {
+		width: 100%;
+		height: auto;
+		border: 1px solid #ccc;
+	}
+	p.description {
+		margin-top: 40px;
+		float: left;
+		font-size: 16px;
+		font-weight: 200;
+		width: 100%;
+	}
+	.certButton {
+		border: solid 1px $brand-primary;
+		background: #FFF;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		padding: 10px 15px;
+		color: $brand-primary;
+		text-transform: uppercase;
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	h3 {
+		width: 100%;
+		float: left;
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: $screen-lg-min) {
+
+}
+
+@media (max-width: $screen-md-min) {
+	.certImageOver {
+		display: none;
+	}
+	#certificeringHome p.description {
+   	 	margin-top: 20px;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	#certificeringHome {
+    	margin-top: 15px;
+	}
+	#certificeringHome h3 {
+    	font-size: 20px;
+		width: 100%;
+		float: left;
+	}
+	#certificeringHome .certImageOver {
+    	top: 50%;
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	#certificeringHome h3 {
+    	font-size: 16px;
+	}
+	#certificeringHome p.description {
+    	font-size: 14px;
+	}
+}

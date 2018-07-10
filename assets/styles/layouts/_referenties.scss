@@ -1,0 +1,76 @@
+.centerRefImg {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.bgContentRef {
+	width: 100%;
+	float: left;
+	background: #F2F2F2;
+	text-align: center;
+	padding: 5%;
+	margin-top: -70px;
+}
+.imgRef {
+	-webkit-border-radius: 170px;
+	-moz-border-radius: 170px;
+	border-radius: 170px;
+	border: solid 8px #F2F2F2;
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+.quoteImgLeft {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.quoteImgRight {
+	float: right;
+	margin-left: 5%;
+	width: 20%;
+	right: 20px;
+	position: absolute;
+	bottom: 15px;
+}
+.nawPerson {
+	float: left;
+	width: 85%;
+	text-align: center;
+	margin-top: 15px;
+	position: absolute;
+	bottom: 20px;
+}
+.page-template-template-referenties .nawPerson {
+	width: 100%;
+}
+.referentieLine h3 {
+	font-size: 15px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.theContent {
+	clear: both;
+}
+.quoteImg {
+	opacity: 0.1;
+}
+.klanten-over-hoekstra .nawPerson {
+	width: 85% !important;
+}
+.referentieLine {
+	margin-bottom: 20px;
+}
+
+@media (max-width: $screen-lg-min) {
+}
+
+@media (max-width: $screen-md-min) {
+}
+
+@media (max-width: $screen-sm-min) {
+}
+
+@media (max-width: $screen-xs-min) {
+}

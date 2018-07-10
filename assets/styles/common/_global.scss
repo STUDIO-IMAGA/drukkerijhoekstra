@@ -1,0 +1,114 @@
+body {
+	font-family: $font-family-sans;
+	color: $brand-primary;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+}
+a {
+    color: #606060;
+}
+h1 {
+	font-family: $font-family-serif-caption;
+	font-weight: $headings-weight;
+	font-size: $headings-size;
+	color: $brand-primary;
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+h2 {
+	font-family: $font-family-serif-caption;
+	font-weight: 300;
+	font-size: $headings-size;
+	color: $brand-primary;
+}
+h3, h4, h5, h6 {
+	font-family: $font-family-sans;
+	font-weight: $subheadings-weight;
+	font-size: $subheadings-size;
+	color: $brand-primary;
+}
+.row-eq-height {
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+.wrap {
+	background: $body-bg;
+    float: left;
+    width: 100%;
+}
+.page-header {
+    float: left;
+    width: 100%;
+	margin: 20px 0 0;
+    border-bottom: 0px !important;
+}
+.contentPage h3 {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+p {
+	font-size: 15px;
+    font-weight: 200;
+    color: #606060;
+}
+li {
+	color: #606060;
+}
+.page-id-557 table {
+	float: left;
+}
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    font-weight: 300 !important;
+}
+
+#searchTop{
+  text-align: right;
+  .searchbox{
+    right: 70px;
+  }
+}
+
+.socialmedia{
+  position: absolute;
+  display: inline-block;
+  width: 76px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: center;
+  top: 0px;
+  right: 15px;
+
+  .fa{
+    color: white;
+    margin-left: 8px;
+  }
+}
+#wp-live-chat{
+  max-height: 420px;
+  height:auto;
+  min-height: 220px;
+  
+  .bleeper_powered_by{
+    display:none;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .socialmedia{
+    display:none;
+  }
+}

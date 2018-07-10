@@ -1,0 +1,104 @@
+#assortimentHome {
+	float:left;
+	width: 100%;
+	.imgAssortiment {
+		width: 100%;
+		height: auto;
+	}
+	.imgAssortiment {
+		border: solid 1px #ccc;
+	}
+	hr {
+		margin-bottom: 0;
+	}
+	h2 {
+		margin-bottom: 0px;
+		margin-top: 40px;
+	}
+	h3 {
+		float: left;
+		width: 100%;
+		padding-top: 0px;
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+	.description {
+		margin: 10px 0px;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.extraAssortiment {
+		position: absolute;
+		top: 80px;
+		background: $brand-primary;
+		color: #FFF;
+		text-transform: uppercase;
+		padding: 8px 15px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.buttonAssortiment {
+		border: solid 1px $brand-primary;
+		background: #FFF;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		padding: 10px 15px;
+		color: $brand-primary;
+		text-transform: uppercase;
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+	}
+	.buttonAssortiment:hover {
+		background: $brand-primary;
+		border: solid 1px $brand-primary;
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+@media (max-width: $screen-lg-min) {
+	#assortimentHome .description {
+		display: none;
+	}
+}
+
+@media (max-width: $screen-md-min) {
+	#assortimentHome {
+		#assortiment section {
+			min-height: 440px;
+		}
+	}
+	#assortimentHome .extraAssortiment {
+		top: 100px;
+	}
+	#assortimentHome #assortiment section {
+    	float: right;
+    	width: 100%;
+	}
+	#assortimentHome #assortiment #offerteCalculator {
+		float: left !important;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	#assortimentHome {
+		#assortiment section {
+			min-height: inherit;
+			margin-bottom: 30px;
+		}
+		.gform_wrapper {
+   	 		max-width: 100%;
+		}
+	}
+	#assortimentHome .extraAssortiment {
+		top: 150px;
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+
+}

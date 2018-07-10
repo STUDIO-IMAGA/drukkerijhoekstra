@@ -1,0 +1,180 @@
+ul li {
+    font-size: 15px;
+    font-weight: 200;
+}
+.wrap .container .row .contentPage p:first-child {
+    font-style: italic;
+    color: $brand-primary;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.page-template-default .contentPage .alignright {
+	margin-left: 95px !important;
+}
+.contentPage table {
+	font-weight: 200;
+	font-size: 15px;
+}
+.gform_wrapper .gfield_checkbox label, .gform_wrapper .gform_radio label {
+	font-size: 14px !important;
+    font-weight: 300 !important;
+    display: block;
+    line-height: 1.5;
+    margin: 0 0 0 24px;
+    padding: 0;
+    vertical-align: top;
+    width: auto;
+}
+ul#input_4_24 li {
+    margin-top: 0px !important;
+}
+#gform_fields_4 li {
+    margin-top: 12px !important;
+}
+.panel-heading {
+    padding: 10px 0 !important;
+}
+.gform_wrapper.gf_browser_gecko .gfield_checkbox li input, .gform_wrapper.gf_browser_gecko .gfield_checkbox li input[type="checkbox"], .gform_wrapper.gf_browser_gecko .gfield_radio li input[type="radio"] {
+    margin-top: 0.2em;
+}
+.gform_wrapper .gfield_checkbox label, .gform_wrapper .gform_radio label {
+    font-family: "Open Sans",sans-serif !important;
+}
+.gform_wrapper .ginput_container label {
+    font-weight: 200 !important;
+}
+.gform_wrapper .gfield_required {
+    color: $brand-primary !important;
+}
+#nieuwsWebsite {
+	float: left;
+	width: 100%;
+}
+.nieuwsItem {
+	margin-bottom: 35px; 
+}
+.nieuwsItem img {
+	width: 100%;
+	height: auto;
+}
+.nieuwsItem h1 {
+	margin-top: 0px;
+}
+.singleImage {
+	width: 100%;
+	height: auto;
+}
+.contentPage table {
+    color: #606060;
+}
+.page-template-template-blog h2 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px !important;
+}
+.page-template-template-blog h2 a {
+	color: $brand-primary !important;
+}
+.page-template-template-blog h2 a:hover {
+	color: $brand-primary !important;
+	text-decoration: none !important;
+}
+#filterCat {
+	padding: 10px;
+	background: $brand-primary;
+	margin-bottom: 50px;
+	font-weight: 600 !important;
+	color: #FFF;
+	font-size: 16px;
+	input {
+		height: 16px;
+		margin: 0 5px 0 10px;
+		width: 16px;
+	}
+}
+.stansBox {
+	margin-bottom: 50px;
+	.downloadStans {
+		float: left;
+		background: #CB031D;
+		clear: both;
+	    color: #fff;
+	    float: left;
+	    font-size: 14px;
+	    font-weight: 600;
+	    padding: 5px 10px;
+	}
+}
+#kerstkaarten {
+	float: left;
+	width: 100%;
+	a {
+		.kerstkaartData {
+			float: left;
+			width: 100%;
+			 p {
+			 	float: left;
+			 	width: 100%;
+			 	display: none;
+			}
+			p:first-child {
+				display: block;
+			}
+		}
+	}
+	a.bestelKaart {
+		background: #cd051f none repeat scroll 0 0;
+	    color: #fff;
+	    font-weight: 600;
+	    margin-bottom: 50px;
+	    padding: 5px 15px;
+	    text-transform: uppercase;
+	    width: auto;
+	    float: left;
+	}
+	ul li a {
+		float: inherit !important;
+		width: inherit !important;
+	}
+}
+#kerstkaartForm {
+	margin-top: 20px !important;
+	label {
+		margin-top: 5px !important;
+	}
+	input {
+		width: 100% !important;
+	}
+	.gform_footer {
+		margin-top: 20px !important;
+	}
+}
+.page-id-13915 {
+	.contentPage {
+		.col-md-4 {
+			img {
+				margin-top: 0px;
+				margin-bottom: 20px;
+			}
+			#gform_wrapper_6 {
+				.gform_heading {
+					span {
+						color: #606060;
+					    font-size: 15px;
+					    font-weight: 200;
+					    margin-bottom: 10px !important;
+					    float: left;
+					    width: 100%;
+					}
+				}
+				input {
+					width: 100% !important;
+				}
+				label {
+					margin-top: 10px;	
+				}
+			}
+		}
+	}
+}
